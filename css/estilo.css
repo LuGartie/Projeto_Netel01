@@ -1,0 +1,23 @@
+*{
+   /*reset do css*/
+   box-sizing: border-box;
+   margin:0;
+   padding: 0;
+}
+
+nav#Links-uteis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3333;
+    padding: 5px;
+}
+
+nav#Links-uteis li{
+    display: inline-block;
+}
+
+nav#Links-uteis li>a{
+    color:white;
+    font-size: 1,2;
+}
