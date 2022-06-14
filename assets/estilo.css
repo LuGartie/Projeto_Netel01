@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+body{
+    background-color: #101010;
+}
+*{
+    /*define as regras gerais*/
+    color: #FFFF;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+nav#links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#737373;
+    padding: 5px;
+    margin: 0 100px;
+}
+nav#links li{
+    display: inline-block;
+}
+
+nav#links li>a{
+    color: white;
+    font-size: 1 2rem;
+    text-decoration: none;
+    margin: 5px;
+}
+
+section#L{
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../assets/images/banner.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+section#L a{
+    text-align: center; 
+    justify-content: space-between;
+    color: white;
+    font-size: 50px ;
+}
+/*coloridos*/
+nav#equipe{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101010;
+    padding: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+nav#equipe p{
+    text-align: center;
+    color: white;
+    font-size: 2;
+    text-decoration: none;
+    background-color: #101010;
+}
+
+section#scoloridos{
+    background-color: #101010;
+}
+
+nav#coloridos{
+    background-color: #101010;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px
+}
+
+nav#coloridos>article{
+    color: #FFFF;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px;
+    width: 500px;
+    height: 375px;
+    margin: 0px 50px;
+}
+
+nav#coloridos>article>p{
+    font-size: 0,5px;
+    text-align: center;
+    margin: 10px;
+}
+
+nav#coloridos>article>button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-color: #FFFF;
+    color: #FFFF;
+    height: 50px;
+    width: 200px;
+    margin: 65px 25px;
+    padding: 20px;
+}
+
+
+nav#coloridos>article>button>img{
+    width: 25px;
+}
+
+article#a{
+    background-color: #C14000;
+}
+article#b{
+    background-color: #009987;
+}
+article#c{
+    background-color: #FFAA00;
+}
+article#a>button{
+    background-color: #C14000;
+}
+article#b>button{
+    background-color: #009987;
+}
+article#c>button{
+    background-color: #FFAA00;
+}
+
+img.perfil{
+    width: 70px;
+    border-radius: 35px;
+}
+
+nav#equipe{
+    background-color: #101010;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+/*C*/
+section#Negócio img{
+    height: 350px;  
+}
+
+section#Negócio {
+    background-color: #101010;
+    padding: 10px;
+}
+
+section#Negócio article{
+    text-align: center;
+    align-items: center;                                                                          
+    padding: 25px;
+}
+
+p#Texto{
+    text-align: justify;
+    font-size: 12px;
+}
+p#título{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px;
+}
+
+section#Negócio p{
+    padding: 2px;
+}
+
+section#Negócio nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #737373;
+    margin: 80px 90px;
+}
+
+section#Negócio button{
+    background-color: transparent;
+    border-color: #FFFF;
+    border-radius: 1px;
+    padding: 10px;
+    width: 150px;
+    margin: 40px;
+}
+
+section#alinks{
+    background-color: #101010;
+}
+
+/*final*/
+nav#aequipe{
+    background-color: #101010;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+nav#aequipe p{
+    margin: 0 350px;
+    padding: 10px;
+    font-size: 15px;
+}
+nav#aequipe h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+section#portifolio{
+    background-color: #101010;
+}
+
+nav.portifolio{
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 250px;
+}
+nav.portifolio img{
+    padding: 2px;
+    height: 175px;
+}
+
+section#saiba{
+    background-color: #101010;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+section#saiba button{
+    background-color: #101010;
+    border-color: #FFFF;
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+}
+
+section#rodape{
+    background-color: #737373;
+}
+section#rodape p{
+    font-size: 15px;
+}
+
+section#rodape>article{
+    margin: px 500px;
+    padding: 25px;
+    margin: 0 85px;
+    display: flex;
+    justify-content: space-between;
+}
+section#rodape img{
+    height: 15px;
+    margin: 0 25px;
+}
+
